@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --rosa: #f914e2;
+    --rosa-hover: #a30b94;
+    --rosa-claro: #ffe8fb;
+    --rosa-claro2: #f7c4ef40;
+    --rosa-sweet: #e97cde;
+    --azul-lab: #5ce1e6;
+}
+header{
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    width: 100%;
+    height: 20vh;
+    background-color: var(--rosa-claro2);
+}
+body{
+    background-color: var(--rosa-claro2);
+}
+.bg-logomarca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+    border-radius: 30px;
+    width: 80px;
+    height: 80px;
+    background-color: var(--rosa);
+}
+.title{
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    margin-top: 70px;
+    font-size: 22px;
+}
+span.cor-rosa{
+    color: var(--rosa-sweet);
+    margin-left: 6px;
+    font-weight: bold;
+}
+span.cor-azul{
+    color: var(--azul-lab);
+    font-weight: bold;
+}
+.subtitle{
+    display: flex;
+    justify-content: center;
+    color: grey;
+    user-select: none;
+    font-size: 13px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 30px 20px 30px;
+}
+input{
+    margin: 5px 0 20px 0;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+input::placeholder{
+    color: rgba(128, 128, 128, 0.56);
+}
+label{
+    color: var(--rosa-sweet);
+}
+button[type="submit"]{
+    background-color: var(--rosa);
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 20px 0 0 0;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px;
+}
+button[type="submit"]:hover{
+    background-color: var(--rosa-hover);
+    transition: .3s;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    margin: 40px 0 0 0;
+}
+button.sign-up{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--rosa);
+}

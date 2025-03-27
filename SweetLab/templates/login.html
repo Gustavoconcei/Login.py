@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/login.css">
+    <title>Login | SweetLab</title>
+</head>
+<header>
+    <div class="bg-logomarca">
+        <img src="/static/Login-images/Logomarca.png" alt="" width="60px" height="70px">
+    </div>
+</header>
+<body>
+    <div class="title">Entre no<span class="cor-rosa">Sweet</span><span class="cor-azul">Lab</span></div>
+    <div class="subtitle">Entre na sua conta e tenha acesso ao site.</div>
+
+    <form action="/acessoCliente" method="POST">
+        <label for="email" class="label-email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+      
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+      
+        <button type="submit">Entrar</button>
+    </form>
+</body>
+<footer>
+    <p class="sign-up">Não tem uma conta SweetLab? <button class="sign-up">Cadastre-se</button></p>
+</footer>
+</html>
